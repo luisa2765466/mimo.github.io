@@ -1,0 +1,133 @@
+/* Font-family*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   list-style: none;
+}
+
+/* #region NOSOTROS*/
+.nosotros-section{
+   width: 100%;
+}
+.nosotros-section .nosotros-container{
+   width: 75%;
+   display: block;
+   margin: 0px auto !important;
+   padding: 50px 0px !important;
+}
+
+.nosotros-container .nosotros-title{
+   width: 100%;
+   text-align: center;
+   margin-bottom: 50px !important;
+   margin-top: 50px !important;
+}
+.nosotros-container .nosotros-title h1{
+   font-size: 35px;
+   color: #e74b3c;
+}
+
+.nosotros-container .nosotros-title h1::after{
+   content: '';
+   height: 5px;
+   width: 170px;
+   background-color: #e74b3c;
+   border: 25px;
+   display: block;
+   margin: auto;
+}
+
+.nosotros-content{
+   float: left;
+   width: 55%;
+}
+
+.nosotros-img{
+   float: right;
+   width: 40%;
+}
+
+.nosotros-img img{
+   width: 100%;
+   height: auto;
+}
+
+.nosotros-content .nosotros-info p{
+   color: #000;
+   font-size: 15px;
+   line-height: 1.5;
+   margin-top: 20px !important;
+}
+
+.nosotros-container .nosotros-social{
+   width: 100%;
+   clear: both;
+   margin-top: 50px !important;
+   text-align: center;
+   display: inline-block;
+}
+
+.nosotros-container .nosotros-social i{
+   color: #fff;
+   font-size: 22px;
+   height: 45px;
+   width: 45px;
+   border-radius: 50%;
+   line-height: 45px;
+   text-align: center;
+   background-color: #e74b3c;
+   margin: 0px 5px !important;
+}
+
+.nosotros-container .nosotros-social i:hover{
+   color: #fff;
+   background-color: #f1c40f;
+   transition: 1s ease;
+   transform: rotate(360deg);
+}
+
+@media (max-width: 768px){
+   .nosotros-section .nosotros-container{
+      width: 80%;
+      display: block;
+      margin: auto;
+   }
+
+   .nosotros-content{
+      float: none;
+      width: 100%;
+      display: block;
+      margin: auto;
+   }
+
+   .nosotros-img{
+      float: none;
+      width: 100%;
+      margin-top: 50px !important;
+   }
+
+   .nosotros-img img{
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+   }
+
+   .nosotros-container .nosotros-title h1{
+      text-align: center;
+      font-size: 30px;
+   }
+
+   .nosotros-container .nosotros-section i{
+      font-size: 19px;
+      height: 35px;
+      width: 35px;
+      line-height: 35px;
+   }
+}
+/* #endregion NOSOTROS*/

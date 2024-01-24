@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons Font Awesome -->
+    <script src="https://kit.fontawesome.com/abd0def56f.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CNDJS Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+        integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>MIMO PRODUCCIONES</title>
+    <link rel="shortcut icon" href="img/logo-mimo2.png" type="image/x-icon" />
+
+</head>
+
+<body>
+    <!-- #region NAVBAR -->
+    <header>
+        <div class="main-navbar">
+            <div class="navbar-container">
+
+                <input type="checkbox" id="check">
+
+                <div class="logo-container">
+                    <img src="img/logo-mimo.png" alt="Logo de Mimo Producciones">
+                </div>
+
+                <div class="nav-btn">
+                    <div class="nav-links">
+                        <ul>
+                            <li class="nav-option" style="--i: .6s">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-option" style="--i: .85s">
+                                <a href="#">Eventos<i class="fas fa-caret-down"></i></a>
+                                <div class="nav-submenu">
+                                    <ul>
+                                        <li class="submenu">
+                                            <a href="paginas/eventos/matrimonios.html">Matrimonios</a>
+                                        </li>
+                                        <li class="submenu">
+                                            <a href="paginas/eventos/15-años.html">15 años</a>
+                                        </li>
+                                        <li class="submenu">
+                                            <a href="paginas/eventos/bautizos.html">Bautizos</a>
+                                        </li>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-option" style="--i: 1.1s">
+                                <a href="#">Servicios<i class="fas fa-caret-down"></i></a>
+                                <div class="nav-submenu">
+                                    <ul>
+                                        <li class="submenu">
+                                            <a href="paginas/servicios/maestro.html">Maestro de Ceremonias</a>
+                                        </li>
+                                        <li class="submenu">
+                                            <a href="paginas/servicios/hora-loca.html">Hora Loca</a>
+                                        </li>
+                                        <li class="submenu">
+                                            <a href="paginas/servicios/buffets-bar.html">Buffets, Banquetes y Bar</a>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-option" style="--i: 1.35s">
+                                <a href="paginas/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-option" style="--i: 1.8s">
+                                <a href="paginas/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-cotiza" style="--i: 2.1s">
+                        <a href="https://wa.link/bx0r14" target="_blank">¡Cotiza Ahora!</a>
+                    </div>
+                </div>
+
+                <div class="hamburger-menu-container">
+                    <div class="hamburger-menu">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- #endregion NAVBAR -->
+
+    <!-- #region Carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner1.svg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="animated bounceInRight" style="animation-delay: 3s;"><a target="_blank" href="https://wa.link/bx0r14">Contáctanos</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner2.svg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <p class="animated bounceInRight" style="animation-delay: 3s;"><a target="_blank" href="https://wa.link/bx0r14">Contáctanos</a></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"
+        integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!-- #endregion Carousel -->
+
+    <!-- #region Card Offer -->
+    <div class="card-offer">
+        <h1>Te Ofrecemos</h1>
+        <div class="card-offer_row">
+            <div class="card-offer_content">
+                <i class="fa-solid fa-comments"></i>
+                <h2>
+                    Asesoramiento
+                </h2>
+                <p>¡Descubre la magia de nuestros servicios de asesoramiento en eventos y haz que tu celebración sea inolvidable! </p>
+            </div>
+            <div class="card-offer_content">
+                <i class="fa-solid fa-list-check"></i>
+                <h2>
+                    Planificación
+                </h2>
+                <p>Confía en nuestro equipo de planificación de eventos y déjanos convertir tus ideas en una realidad excepcional </p>
+            </div>
+            <div class="card-offer_content">
+                <i class="fa-sharp fa-solid fa-circle-check"></i>
+                <h2>
+                    Buen Servicio
+                </h2>
+                <p>En cada evento, nos esforzamos por ofrecer un servicio impecable, porque sabemos que los detalles marcan la diferencia </p>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion Card Offer -->
+
+    <!-- #region Card Animations -->
+    <div class="animation">
+        <div class="animation-title">
+            <h1>Animaciones Para <span>Fiestas Infantiles</span></h1>
+        </div>
+        <div class="animation-card">
+            <div class="animation-container">
+                <!-- card 1 -->
+                <div class="animation-box">
+                    <div class="animation-body">
+                        <div class="animation-img">
+                            <img src="img/img-inicio/paquete1.svg" alt="">
+                        </div>
+                        <div class="animation-info">
+                            <h2>Paquete #1</h2>
+                            <p>
+                                ● Juegos <br>
+                                ● Doble vestuario <br>
+                                ● Equipo de sonido <br>
+                                ● 2 Luces <br>
+                                ● Mini Hora Loca <br><br>
+                                <span>Obsequio:</span>
+                            </p>
+
+                            <div class="animation-present">
+                                <li><i class="fa-solid fa-gift fa-bounce" id="present">
+                                        <p> 1 spray o 25 globos pencil</p>
+                                    </i></li>
+                            </div>
+
+                            <div class="animatios-price">
+                                <p>S/. 250.00</p>
+                            </div>
+
+                            <div class="animation-btn">
+                                <a href="https://wa.link/bx0r14" target="_blank">
+                                    Solicitar Servicio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="animation-box">
+                    <div class="animation-body">
+                        <div class="animation-img">
+                            <img src="img/img-inicio/paquete2.svg" alt="">
+                        </div>
+                        <div class="animation-info2">
+                            <h2>Paquete #2</h2>
+                            <p>
+                                ● Juegos y 3 Luces <br>
+                                ● Doble vestuario <br>
+                                ● Equipo de sonido <br>
+                                ● 1 Muñeco de moda <br>
+                                ● Mini Hora Loca <br><br>
+                                <span>Obsequio:</span>
+                            </p>
+
+                            <div class="animation-present2">
+                                <li><i class="fa-solid fa-gift fa-bounce" id="present">
+                                        <p> 1 spray o 50 globos pencil</p>
+                                    </i></li>
+                            </div>
+
+                            <div class="animatios-price">
+                                <p>S/. 350.00</p>
+                            </div>
+
+                            <div class="animation-btn2">
+                                <a href="https://wa.link/bx0r14" target="_blank">
+                                    Solicitar Servicio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion Card Animations -->
+
+    <!-- #region Events Gallery -->
+    <div class="events_title">
+        <h1>Eventos</h1>
+        <div>
+            <div class="events-gallery_container">
+                <div class="events_row">
+
+                    <div class="events-img">
+                        <img src="img/img-inicio/matrimonio.svg" alt="">
+                        <div class="events-info">
+                            <h2>
+                                Matri <span>monios</span>
+                            </h2>
+                            <p>El día de tu matrimonio, sin preocupaciones. Nosotros nos encargamos de todo para que tú solo disfrutes.</p>
+                            <div class="events-btn">
+                                <a href="paginas/eventos/matrimonios.html" class="btn-more">Leer <span>Más</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="events-img">
+                        <img src="img/img-inicio/15años.svg" alt="">
+                        <div class="events-info">
+                            <h2>
+                                15 <span>años</span>
+                            </h2>
+                            <p>Celebra tus 15 años con un evento mágico y lleno de encanto.</p>
+                            <div class="events-btn">
+                                <a href="paginas/eventos/15-años.html" class="btn-more">Leer <span>Más</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="events-img">
+                        <img src="img/img-inicio/bautizos.svg" alt="">
+                        <div class="events-info">
+                            <h2>
+                                Bau<span>tizos</span>
+                            </h2>
+                            <p>Un bautizo memorable y lleno de amor. Permítenos hacer de este momento especial una experiencia inolvidable.</p>
+                            <div class="events-btn">
+                                <a href="paginas/eventos/bautizos.html" class="btn-more">Leer <span>Más</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion Events Gallery -->
+
+    <!-- #region Service Gallery -->
+    <div class="service_title">
+        <h1>Servicios</h1>
+        <div>
+            <div class="service-gallery_container">
+                <div class="service_row">
+                    <div class="service-img">
+                        <img src="img/img-inicio/maestro.svg" alt="">
+                        <div class="service-info">
+                            <h2>
+                                Maestro de <span>Ceremonia</span>
+                            </h2>
+                            <p>Confía en nuestra experiencia para crear momentos inolvidables.</p>
+                            <div class="service-btn">
+                                <a href="#" class="btn-more">Leer <span>Más</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-img">
+                        <img src="img/img-inicio/hora-loca.svg" alt="">
+                        <div class="service-info">
+                            <h2>
+                                Hora <span>Loca</span>
+                            </h2>
+                            <p>La diversión está en la hora loca! Disfruta de un estallido de alegría y energía con nuestro servicio de hora loca.</p>
+                            <div class="service-btn">
+                                <a href="#" class="btn-more">Leer <span>Más</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-img">
+                        <img src="img/img-inicio/buffet.svg" alt="">
+                        <div class="service-info">
+                            <h2>
+                                Buffets y <span>Banquetes</span>
+                            </h2>
+                            <p>Disfruta de momentos deliciosos con nuestro servicio de bar y banquetes de comida.</p>
+                            <div class="service-btn">
+                                <a href="#" class="btn-more">Leer <span>Más</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion Service Gallery -->
+
+    <!-- #region Footer -->
+    <footer>
+        <div class="div-footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social_icon">
+                <li><a href="https://www.facebook.com/produccionesmimo" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.tiktok.com/@producciones.el.mimo" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+            </ul>
+            <ul class="footer-menu">
+                <li><a href="https://wa.link/bx0r14" target="_blank"><i class="fa-solid fa-phone"></i>
+                        <p>992 265 208</p>
+                    </a></li>
+
+                <li><a href="mailto:producciones.el.mimo@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>
+                        <p>producciones.el.mimo@gmail.com</p>
+                    </a></li>
+            </ul>
+            <span>©2023 Mimo Producciones</span>
+        </div>
+    </footer>
+
+    <!-- #endregion Footer -->
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
